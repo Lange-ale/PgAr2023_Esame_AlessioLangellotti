@@ -55,7 +55,10 @@ public class App {
             int y = InputData.readIntegerBetween("Inserisci la nuova posizione sulle y: ", 0, 5);
             int distance = BFSGrid.bfs(game.getCurrentPlayer().getPosition(), new Pair(x, y), game);
             while (distance > game.getCurrentPlayer().getHealth() && game.isCellFree(new Pair(x, y))) {
-                Utils.println("La distanza è troppo grande! Devi muoverti di " + (distance - game.getCurrentPlayer().getHealth()) + " caselle in meno.", AnsiColors.RED);
+                Utils.println(
+                        "La distanza è troppo grande! Devi muoverti di "
+                                + (distance - game.getCurrentPlayer().getHealth()) + " caselle in meno.",
+                        AnsiColors.RED);
                 x = InputData.readIntegerBetween("Inserisci la nuova posizione sulle x: ", 0, 5);
                 y = InputData.readIntegerBetween("Inserisci la nuova posizione sulle y: ", 0, 5);
                 distance = BFSGrid.bfs(game.getCurrentPlayer().getPosition(), new Pair(x, y), game);
@@ -105,7 +108,7 @@ public class App {
                         if (choice4 == 0)
                             break;
                         game.discardFromHand(game.getCurrentPlayer(),
-                                game.getCurrentPlayer().getHand().get(menu4.choose() - 1));
+                                game.getCurrentPlayer().getHand().get(choice4 - 1));
                         break;
                     case 5:
                         Menu menu5 = new Menu("Inserisci il giocatore a cui mandare il messaggio:",

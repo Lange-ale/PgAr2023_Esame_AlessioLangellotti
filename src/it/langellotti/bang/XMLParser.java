@@ -62,10 +62,9 @@ public class XMLParser {
                 xmlr.next();
                 var eventType = xmlr.getEventType();
                 if (eventType == XMLStreamReader.START_ELEMENT) {
+                    if (xmlr.getAttributeCount() > 0)
+                        equipable = xmlr.getAttributeValue(0).equals("true");
                     switch (xmlr.getLocalName()) {
-                        case "carta equipaggiabile":
-                            equipable = Boolean.parseBoolean(xmlr.getAttributeValue(null, "equipaggiabile"));
-                            break;
                         case "nome":
                             name = readContent(xmlr);
                             break;
