@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<armi>
+	<arma>
+		<nome>
+			Schofield
+		</nome>
+		<distanza>
+			2
+		</distanza>
+		<copie totale="3">
+			<copia>
+				<valore>
+					JACK
+				</valore>
+				<seme>
+					FIORI
+				</seme>
+			</copia>
+			<copia>
+				<valore>
+					DONNA
+				</valore>
+				<seme>
+					FIORI
+				</seme>
+			</copia>
+			<copia>
+				<valore>
+					RE
+				</valore>
+				<seme>
+					PICCHE
+				</seme>
+			</copia>
+		</copie>
+	</arma>
+	<arma>
+		<nome>
+			Remington
+		</nome>
+		<distanza>
+			3
+		</distanza>
+		<copie totale="1">
+			<copia>
+				<valore>
+					RE
+				</valore>
+				<seme>
+					FIORI
+				</seme>
+			</copia>
+		</copie>
+	</arma>
+	<arma>
+		<nome>
+			Rev. Carabine
+		</nome>
+		<distanza>
+			4
+		</distanza>
+		<copie totale="1">
+			<copia>
+				<valore>
+					ASSO
+				</valore>
+				<seme>
+					FIORI
+				</seme>
+			</copia>
+		</copie>
+	</arma>
+	<arma>
+		<nome>
+			Winchester
+		</nome>
+		<distanza>
+			5
+		</distanza>
+		<copie totale="1">
+			<copia>
+				<valore>
+					8
+				</valore>
+				<seme>
+					PICCHE
+				</seme>
+			</copia>
+		</copie>
+	</arma>
+</armi>
