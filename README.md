@@ -14,5 +14,5 @@
 - [ ] Modulo 1: Personaggi
 - [X] Modulo 2: Per un pugno di carte
 - [ ] Modulo 3: Classifica
-- [ ] Modulo 4: Saloon
+- [X] Modulo 4: Saloon
 - [X] Modulo 5: Taunt
