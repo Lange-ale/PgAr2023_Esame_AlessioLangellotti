@@ -18,6 +18,7 @@ public class Card {
         var cardFuncionality = CardFuncionality.getByName(name);
         if (cardFuncionality == null) {
             Utils.println("Mossa interessante :/", AnsiColors.YELLOW);
+            return;
         }
         cardFuncionality.apply(game);
     }
